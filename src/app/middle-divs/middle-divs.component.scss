@@ -1,0 +1,23 @@
+
+app-left-div
+{
+    width: 50%;
+    background: #456456;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    @media(max-width: 350px)
+    {
+        width: 100%;
+        height: 50%;
+    }
+}
+app-right-div
+{
+    width: 50%;    
+    @media(max-width: 350px)
+    {
+        width: 100%;
+        height: 50%;
+    }
+}
